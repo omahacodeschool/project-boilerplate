@@ -2,8 +2,37 @@
 @import "variables";
 @import "grid";
 
+@import "nav_bar";
+@import "hero";
+@import "brand_name";
+@import "company_discription";
+@import "whats_brewing";
+@import "menu";
+@import "community_board";
+@import "footer";
+
 @import "general";
 
 @import "header";
 @import "content";
-@import "footer";
+
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.overlay {
+    color: red;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
