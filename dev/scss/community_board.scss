@@ -1,0 +1,39 @@
+.community_board {
+  background-color: $porcelain;
+}
+
+.community_board__title {
+  float: left;
+}
+
+.article {
+  border: solid yellow 1px;
+}
+
+.article__image {
+  float: right;
+  padding: 10px;
+}
+
+.article__title {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.byline__img {
+  display: block;
+  float: left;
+  padding: 0 9px;
+}
+
+.byline__writer {
+  padding: 0 5px;
+  font-size: 13px;
+  float: left;
+}
+
+.article__article {
+  padding: 5px;
+  font-size: 14px;
+}
+
