@@ -1,0 +1,54 @@
+.community_board {
+  background-color: $porcelain;
+}
+
+.community_board__title {
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+// .community_board__archive {
+//   float: right;
+//   padding-right: 10px;
+// }
+
+.article_container {
+  border-top: 25px solid $blue;
+}
+
+.article {
+  float: right;
+}
+
+.article__image {
+  float: right;
+  padding: 10px;
+  max-height: 75%;
+}
+
+.article__title {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.byline__img {
+  display: block;
+  float: left;
+  padding: 0 9px;
+}
+
+.byline__writer {
+  padding: 0 5px;
+  font-size: 13px;
+}
+
+.article__body {
+  padding: 5px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 40.063em) { 
+  
+} 
+

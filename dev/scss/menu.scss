@@ -1,0 +1,74 @@
+
+.blc-menu {
+  background-color: $porcelain;
+  text-align: center;
+  color: $blue;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 40.063em) { 
+  .blc-menu {
+  padding-top: 63px;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {  
+  .blc-menu {
+  padding-top: 75px;
+  padding-right: 95px;
+  }
+
+}
+
+.menu_container{
+  margin: 0 5px 0 5px;
+  border: .5px solid $lightgrey;
+  position: relative;
+  padding: 0 5px 5px 5px;
+}
+.menu_header{
+  font-size: 24px;
+  font-family: $head_font;
+  text-align: center; 
+  position: relative;
+}
+.corner_right{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+.corner_left{
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+.section_title{
+  font-family: $head_font;
+  text-align: center;
+}
+.coffee_module{
+  font-family: $body_font;
+  font-size: 14px;
+  margin: 2px 5px;
+}
+.coffee_module__cost{
+  float: right;
+  //width: 111px;
+}
+.coffee_module__middle{
+  float: right;
+  margin: 0 auto;
+}
+.coffe_module__middle__dots{
+  border-bottom: 1px dotted black;
+  width: 100px;
+ 
+  position: relative;
+  top: 15px;
+}
+.coffee_module__drink{
+  float: left;
+  //width: 111px;
+}
+
+

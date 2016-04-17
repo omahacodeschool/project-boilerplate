@@ -1,0 +1,27 @@
+
+.brand_name_container {
+  max-width: 100%;
+}
+
+.brand_name {
+  position: absolute;
+  display: block;
+  max-width: 95%;
+  left: 10px;
+  z-index: 2;
+  bottom: -20px;
+}
+
+
+@media only screen and (min-width: 40.063em) { 
+  .brand_name {
+    bottom: -22px;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {  
+  .brand_name {
+    left: 20px;
+    bottom: -25px;
+  }
+}

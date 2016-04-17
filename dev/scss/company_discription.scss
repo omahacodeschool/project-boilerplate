@@ -1,0 +1,25 @@
+.company_discription {
+  background-color: $porcelain;
+  border-top: solid 17px;
+  border-color: $blue;
+  padding: 63px;
+  color: $chocolate;
+  // color: #2B2B2B;
+  // font-family: "Cassannet Regular";
+}
+
+
+
+@media only screen and (min-width: 40.063em) {
+  .company_discription {
+    padding: 130px 100px 100px 100px;
+  }
+}
+
+
+@media only screen and (min-width: 64.063em) {  
+
+  .company_discription {
+    padding: 180px 100px 100px 100px;
+  }
+}

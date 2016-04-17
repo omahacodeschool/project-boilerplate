@@ -1,0 +1,55 @@
+
+
+.brewing {
+  background-color: $porcelain;
+  padding: 0px 15px;
+}
+
+.whats_brewing {
+  margin-bottom: 30px;
+  border-bottom: solid 1px;
+  border-color: $lightgrey;
+  font-family: "HKGrotesk-Regular";
+  font-size: 25px;
+}
+
+.coffee {
+  margin-bottom: 30px;
+  border-bottom: solid 1px;
+  border-color: $lightgrey;
+}
+
+.coffee__image {
+  float: left;
+  margin-right: 5px;
+  background-color: blue;
+  width: 25%;
+  height: 75px;
+}
+
+.coffee__name {
+  font-family: "HKGrotesk-Bold";
+  float: left;
+  margin-right: 10px;
+}
+
+.coffee__discript {
+  font-family: "HKGrotesk-Regular";
+  font-size: 12px;
+  line-height: 2;
+}
+
+@media only screen and (min-width: 40.063em) { 
+  .whats_brewing {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 64.063em) {  
+
+  .brewing {
+  padding: 0px 100px 0px 65px;
+  }
+}
+
+
