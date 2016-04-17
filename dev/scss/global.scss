@@ -2,8 +2,33 @@
 @import "variables";
 @import "grid";
 
+@import "nav_bar";
+@import "hero";
+@import "brand_name";
+@import "company_discription";
+@import "whats_brewing";
+@import "menu";
+@import "community_board";
+@import "footer";
+
 @import "general";
 
 @import "header";
 @import "content";
-@import "footer";
+@import "blog";
+
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+
+.main_container {
+  background-color: #F7F7F7;
+}
+
+.row.max_width{
+  max-width: 100%;
+}

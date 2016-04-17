@@ -1,0 +1,46 @@
+ul{
+  list-style-type: none;
+}
+.blog_header{
+  border-bottom: 17px solid $blue;
+  padding-bottom: 5px;
+ //background-color: black;
+  //overflow: hidden;
+}
+.blog_header__text{
+  font-family: "Cassannet Bold";
+  font-size: 2em;
+  width: 75%;
+  float: right;
+  color: black;
+  text-align: center;
+  margin-top: 25px;
+}
+.blog_header__logo{
+  float: left;
+  width: 25%;
+}
+.featured_post__title{
+  font-family: $head_font;
+  text-align: center;
+}
+.featured_post__text{
+  font-family: $body_font;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.all_posts{
+  font-family: $body_font;
+  text-align: center;
+  color: $blue;
+}
+.all_posts__list__title:hover{
+  color: black;
+  text-decoration: underline;
+}
+.featured_post__img{
+  width: 100%;
+  //Image height is arbitrary. Trying to predict conflicts with page layout if uploaded image is giant.
+  object-fit: cover;
+  max-height: 250px;
+}
